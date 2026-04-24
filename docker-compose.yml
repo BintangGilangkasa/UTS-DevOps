@@ -22,7 +22,7 @@ services:
       container: app
     volumes:
       - .:/app/output
-    command: python app.py
+    command: python uts.py
 
 volumes:
   db_data:
